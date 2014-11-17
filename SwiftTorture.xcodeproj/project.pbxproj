@@ -13,6 +13,7 @@
 		C07B95E11A1A7F050031ADFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07B95E01A1A7F050031ADFA /* ViewController.m */; };
 		C07B95E61A1A7F050031ADFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07B95E51A1A7F050031ADFA /* Images.xcassets */; };
 		C07B95F51A1A7F050031ADFA /* SwiftTortureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C07B95F41A1A7F050031ADFA /* SwiftTortureTests.m */; };
+		C07B96061A1A892B0031ADFA /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07B96051A1A892B0031ADFA /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		C07B95EE1A1A7F050031ADFA /* SwiftTortureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTortureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07B95F31A1A7F050031ADFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C07B95F41A1A7F050031ADFA /* SwiftTortureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiftTortureTests.m; sourceTree = "<group>"; };
+		C07B96051A1A892B0031ADFA /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				C07B95E01A1A7F050031ADFA /* ViewController.m */,
 				C07B95E51A1A7F050031ADFA /* Images.xcassets */,
 				C07B95D81A1A7F050031ADFA /* Supporting Files */,
+				C07B96051A1A892B0031ADFA /* View.swift */,
 			);
 			path = SwiftTorture;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C07B96061A1A892B0031ADFA /* View.swift in Sources */,
 				C07B95E11A1A7F050031ADFA /* ViewController.m in Sources */,
 				C07B95DE1A1A7F050031ADFA /* AppDelegate.m in Sources */,
 				C07B95DB1A1A7F050031ADFA /* main.m in Sources */,
