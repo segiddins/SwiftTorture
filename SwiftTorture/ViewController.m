@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <Alamofire/Alamofire-Swift.h>
 
 @interface ViewController ()
 

@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		535F73BE20DAD50116E4C124 /* Pods_SwiftTorture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670FB4A83522738DF5ADCF04 /* Pods_SwiftTorture.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C07B95DB1A1A7F050031ADFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C07B95DA1A1A7F050031ADFA /* main.m */; };
 		C07B95DE1A1A7F050031ADFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C07B95DD1A1A7F050031ADFA /* AppDelegate.m */; };
 		C07B95E11A1A7F050031ADFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07B95E01A1A7F050031ADFA /* ViewController.m */; };
-		C07B95E41A1A7F050031ADFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07B95E21A1A7F050031ADFA /* Main.storyboard */; };
 		C07B95E61A1A7F050031ADFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07B95E51A1A7F050031ADFA /* Images.xcassets */; };
-		C07B95E91A1A7F050031ADFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C07B95E71A1A7F050031ADFA /* LaunchScreen.xib */; };
 		C07B95F51A1A7F050031ADFA /* SwiftTortureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C07B95F41A1A7F050031ADFA /* SwiftTortureTests.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +26,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25D093677D6EE7A5DD70256B /* Pods-SwiftTorture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTorture.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTorture/Pods-SwiftTorture.release.xcconfig"; sourceTree = "<group>"; };
+		670FB4A83522738DF5ADCF04 /* Pods_SwiftTorture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTorture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		832402F10D6697F7AF16A74E /* Pods-SwiftTorture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTorture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTorture/Pods-SwiftTorture.debug.xcconfig"; sourceTree = "<group>"; };
 		C07B95D51A1A7F050031ADFA /* SwiftTorture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTorture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07B95D91A1A7F050031ADFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C07B95DA1A1A7F050031ADFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,9 +36,7 @@
 		C07B95DD1A1A7F050031ADFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C07B95DF1A1A7F050031ADFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C07B95E01A1A7F050031ADFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C07B95E31A1A7F050031ADFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C07B95E51A1A7F050031ADFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C07B95E81A1A7F050031ADFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C07B95EE1A1A7F050031ADFA /* SwiftTortureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTortureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07B95F31A1A7F050031ADFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C07B95F41A1A7F050031ADFA /* SwiftTortureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiftTortureTests.m; sourceTree = "<group>"; };
@@ -47,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				535F73BE20DAD50116E4C124 /* Pods_SwiftTorture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +61,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5569652A2F75B34D03225C57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				832402F10D6697F7AF16A74E /* Pods-SwiftTorture.debug.xcconfig */,
+				25D093677D6EE7A5DD70256B /* Pods-SwiftTorture.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4F79555E311CC5DC10FF260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				670FB4A83522738DF5ADCF04 /* Pods_SwiftTorture.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C07B95CC1A1A7F040031ADFA = {
 			isa = PBXGroup;
 			children = (
 				C07B95D71A1A7F050031ADFA /* SwiftTorture */,
 				C07B95F11A1A7F050031ADFA /* SwiftTortureTests */,
 				C07B95D61A1A7F050031ADFA /* Products */,
+				5569652A2F75B34D03225C57 /* Pods */,
+				A4F79555E311CC5DC10FF260 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,9 +105,7 @@
 				C07B95DD1A1A7F050031ADFA /* AppDelegate.m */,
 				C07B95DF1A1A7F050031ADFA /* ViewController.h */,
 				C07B95E01A1A7F050031ADFA /* ViewController.m */,
-				C07B95E21A1A7F050031ADFA /* Main.storyboard */,
 				C07B95E51A1A7F050031ADFA /* Images.xcassets */,
-				C07B95E71A1A7F050031ADFA /* LaunchScreen.xib */,
 				C07B95D81A1A7F050031ADFA /* Supporting Files */,
 			);
 			path = SwiftTorture;
@@ -126,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C07B95F81A1A7F050031ADFA /* Build configuration list for PBXNativeTarget "SwiftTorture" */;
 			buildPhases = (
+				BF00CE6FBDA33B0ACC9882ED /* Check Pods Manifest.lock */,
 				C07B95D11A1A7F050031ADFA /* Sources */,
 				C07B95D21A1A7F050031ADFA /* Frameworks */,
 				C07B95D31A1A7F050031ADFA /* Resources */,
+				DE9896827498C566BD3556FE /* Embed Pods Frameworks */,
+				1BBE83CA98957CA373AF3D90 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,8 +220,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C07B95E41A1A7F050031ADFA /* Main.storyboard in Resources */,
-				C07B95E91A1A7F050031ADFA /* LaunchScreen.xib in Resources */,
 				C07B95E61A1A7F050031ADFA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +232,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BBE83CA98957CA373AF3D90 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTorture/Pods-SwiftTorture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF00CE6FBDA33B0ACC9882ED /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE9896827498C566BD3556FE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTorture/Pods-SwiftTorture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C07B95D11A1A7F050031ADFA /* Sources */ = {
@@ -242,25 +309,6 @@
 			targetProxy = C07B95EF1A1A7F050031ADFA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C07B95E21A1A7F050031ADFA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C07B95E31A1A7F050031ADFA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C07B95E71A1A7F050031ADFA /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C07B95E81A1A7F050031ADFA /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C07B95F61A1A7F050031ADFA /* Debug */ = {
@@ -341,6 +389,7 @@
 		};
 		C07B95F91A1A7F050031ADFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832402F10D6697F7AF16A74E /* Pods-SwiftTorture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftTorture/Info.plist;
@@ -351,6 +400,7 @@
 		};
 		C07B95FA1A1A7F050031ADFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D093677D6EE7A5DD70256B /* Pods-SwiftTorture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftTorture/Info.plist;
@@ -412,6 +462,7 @@
 				C07B95FA1A1A7F050031ADFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C07B95FB1A1A7F050031ADFA /* Build configuration list for PBXNativeTarget "SwiftTortureTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +471,7 @@
 				C07B95FD1A1A7F050031ADFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
