@@ -3,6 +3,7 @@ PODS:
   - Alamofire (1.1.0)
   - ISO8601DateFormatterValueTransformer (0.6.0):
     - RKValueTransformers (~> 1.1.0)
+  - LlamaKit (0.1.0)
   - RestKit (0.23.3):
     - RestKit/Core (= 0.23.3)
   - RestKit/Core (0.23.3):
@@ -24,24 +25,34 @@ PODS:
     - TransitionKit (= 2.1.0)
   - RKValueTransformers (1.1.0)
   - SOCKit (1.1)
+  - Stencil (0.1.0)
   - TransitionKit (2.1.0)
 
 DEPENDENCIES:
   - Alamofire (from `https://github.com/mrackwitz/Alamofire`, branch `podspec`)
+  - LlamaKit (from `https://github.com/ashfurrow/LlamaKit`, commit `8a79bc3cd65080e856a1c13d5c3e7ee5f512fbf5`)
   - RestKit
+  - Stencil (from `https://github.com/kylef/Stencil.git`)
 
 EXTERNAL SOURCES:
   Alamofire:
     :branch: podspec
     :git: https://github.com/mrackwitz/Alamofire
+  LlamaKit:
+    :commit: 8a79bc3cd65080e856a1c13d5c3e7ee5f512fbf5
+    :git: https://github.com/ashfurrow/LlamaKit
+  Stencil:
+    :git: https://github.com/kylef/Stencil.git
 
 SPEC CHECKSUMS:
   AFNetworking: 80c4e0652b08eb34e25b9c0ff3c82556fe5967b4
   Alamofire: 4cff790102216d69f3b12dd69885c468870d51e9
   ISO8601DateFormatterValueTransformer: a705384ea6531255258e25b6480ba1180db703a0
+  LlamaKit: 71673af25b2c733160d643e67c1f711d3afa4af2
   RestKit: 193a35cddae5198388977abaedad129f8acb978b
   RKValueTransformers: b705e7b4651b9206b94600408462b74554bba969
   SOCKit: d8d0dd3688ae1026c12367570da8fa8e1a6980fb
+  Stencil: e2656f888e29335075df5a243b1dabfa08df13e8
   TransitionKit: 6a6f3ddda38ae758778aa889dcb930e4f8d64edc
 
 COCOAPODS: 0.35.0.rc2

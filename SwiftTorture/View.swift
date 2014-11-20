@@ -7,7 +7,8 @@
 //
 
 import UIKit
+import Alamofire
 
 class View: UIView {
-
+    
 }

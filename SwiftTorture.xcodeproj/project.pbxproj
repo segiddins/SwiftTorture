@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CF0F7F3F0E5A7DAB9BAB858 /* Pods_SwiftTortureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA88E7511711A0810B7AE7FC /* Pods_SwiftTortureTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		535F73BE20DAD50116E4C124 /* Pods_SwiftTorture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670FB4A83522738DF5ADCF04 /* Pods_SwiftTorture.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C07B95DB1A1A7F050031ADFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C07B95DA1A1A7F050031ADFA /* main.m */; };
 		C07B95DE1A1A7F050031ADFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C07B95DD1A1A7F050031ADFA /* AppDelegate.m */; };
@@ -30,6 +31,7 @@
 		25D093677D6EE7A5DD70256B /* Pods-SwiftTorture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTorture.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTorture/Pods-SwiftTorture.release.xcconfig"; sourceTree = "<group>"; };
 		670FB4A83522738DF5ADCF04 /* Pods_SwiftTorture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTorture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		832402F10D6697F7AF16A74E /* Pods-SwiftTorture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTorture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTorture/Pods-SwiftTorture.debug.xcconfig"; sourceTree = "<group>"; };
+		9C17897B8E127E57BD64FCA5 /* Pods-SwiftTortureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTortureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTortureTests/Pods-SwiftTortureTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C07B95D51A1A7F050031ADFA /* SwiftTorture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTorture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07B95D91A1A7F050031ADFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C07B95DA1A1A7F050031ADFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +44,8 @@
 		C07B95F31A1A7F050031ADFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C07B95F41A1A7F050031ADFA /* SwiftTortureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiftTortureTests.m; sourceTree = "<group>"; };
 		C07B96051A1A892B0031ADFA /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		D01FCEF355CE2178FB54D9F9 /* Pods-SwiftTortureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTortureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTortureTests/Pods-SwiftTortureTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA88E7511711A0810B7AE7FC /* Pods_SwiftTortureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTortureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF0F7F3F0E5A7DAB9BAB858 /* Pods_SwiftTortureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +73,8 @@
 			children = (
 				832402F10D6697F7AF16A74E /* Pods-SwiftTorture.debug.xcconfig */,
 				25D093677D6EE7A5DD70256B /* Pods-SwiftTorture.release.xcconfig */,
+				9C17897B8E127E57BD64FCA5 /* Pods-SwiftTortureTests.debug.xcconfig */,
+				D01FCEF355CE2178FB54D9F9 /* Pods-SwiftTortureTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -76,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				670FB4A83522738DF5ADCF04 /* Pods_SwiftTorture.framework */,
+				FA88E7511711A0810B7AE7FC /* Pods_SwiftTortureTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C07B95FB1A1A7F050031ADFA /* Build configuration list for PBXNativeTarget "SwiftTortureTests" */;
 			buildPhases = (
+				33F613293C07ED03CECD9D81 /* Check Pods Manifest.lock */,
 				C07B95EA1A1A7F050031ADFA /* Sources */,
 				C07B95EB1A1A7F050031ADFA /* Frameworks */,
 				C07B95EC1A1A7F050031ADFA /* Resources */,
+				7A9EA91F7F7BB2B0AED314C2 /* Embed Pods Frameworks */,
+				DB8AD2A440EA9432C41D2AC2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +263,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTorture/Pods-SwiftTorture-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		33F613293C07ED03CECD9D81 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A9EA91F7F7BB2B0AED314C2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTortureTests/Pods-SwiftTortureTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BF00CE6FBDA33B0ACC9882ED /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,6 +306,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB8AD2A440EA9432C41D2AC2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTortureTests/Pods-SwiftTortureTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DE9896827498C566BD3556FE /* Embed Pods Frameworks */ = {
@@ -415,6 +471,7 @@
 		};
 		C07B95FC1A1A7F050031ADFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C17897B8E127E57BD64FCA5 /* Pods-SwiftTortureTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -434,6 +491,7 @@
 		};
 		C07B95FD1A1A7F050031ADFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01FCEF355CE2178FB54D9F9 /* Pods-SwiftTortureTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -72,6 +72,12 @@
 #define COCOAPODS_VERSION_MINOR_SOCKit 1
 #define COCOAPODS_VERSION_PATCH_SOCKit 0
 
+// Stencil
+#define COCOAPODS_POD_AVAILABLE_Stencil
+#define COCOAPODS_VERSION_MAJOR_Stencil 0
+#define COCOAPODS_VERSION_MINOR_Stencil 1
+#define COCOAPODS_VERSION_PATCH_Stencil 0
+
 // TransitionKit
 #define COCOAPODS_POD_AVAILABLE_TransitionKit
 #define COCOAPODS_VERSION_MAJOR_TransitionKit 2

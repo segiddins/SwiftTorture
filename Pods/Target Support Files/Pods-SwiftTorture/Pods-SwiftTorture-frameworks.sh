@@ -17,6 +17,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'RKValueTransformers.framework'
   install_framework 'RestKit.framework'
   install_framework 'SOCKit.framework'
+  install_framework 'Stencil.framework'
   install_framework 'TransitionKit.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -26,5 +27,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'RKValueTransformers.framework'
   install_framework 'RestKit.framework'
   install_framework 'SOCKit.framework'
+  install_framework 'Stencil.framework'
   install_framework 'TransitionKit.framework'
 fi
